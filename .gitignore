@@ -1,0 +1,35 @@
+# Игнорировать папки Visual Studio и временные файлы
+.vs/
+*.sln.ide/
+*.user
+*.suo
+*.sln.docstates
+
+# Игнорировать папки сборки (Debug/Release/x64)
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.log
+
+# Игнорировать файлы кэша IntelliSense (ipch, vsidx)
+*.ipch
+*.vsidx
+
+# Игнорировать файлы, создаваемые компилятором
+*.tlog
+*.lastbuildstate
+
+# Игнорировать временные файлы
+*.tmp
+*.bak
+
+# (Опционально) Игнорировать папку с исходниками установщика, если не хотите её в репозитории
+# InstallerBuild/
+
+# Если хотите включить папку InstallerBuild, но исключить готовые exe (чтобы не дублировать)
+InstallerBuild/*.exe

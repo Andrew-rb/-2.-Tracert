@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MyTracert/MyTracert.vcxproj" Id="71d21d8f-cfa8-4128-a796-70cb35abdce9" />
+</Solution>
